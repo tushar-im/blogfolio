@@ -1,18 +1,5 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"vcs": {
-		"enabled": false,
-		"clientKind": "git",
-		"useIgnoreFile": false
-	},
-	"files": {
-		"ignoreUnknown": false,
-		"ignore": []
-	},
-	"formatter": {
-		"enabled": true,
-		"indentStyle": "tab"
-	},
 	"organizeImports": {
 		"enabled": true
 	},
@@ -22,9 +9,24 @@
 			"recommended": true
 		}
 	},
-	"javascript": {
+	"json": {
 		"formatter": {
-			"quoteStyle": "double"
+			"enabled": false
 		}
-	}
+	},
+	"overrides": [
+		{
+			"include": [
+				"*.astro"
+			],
+			"linter": {
+				"rules": {
+					"style": {
+						"useConst": "off",
+						"useImportType": "off"
+					}
+				}
+			}
+		}
+	]
 }

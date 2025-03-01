@@ -1,24 +1,33 @@
 {
-  "name": "blogfolio",
-  "packageManager": "yarn@4.6.0",
-  "scripts": {
-    "dev": "astro dev",
-    "dev:network": "astro dev --host",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "preview:network": "astro preview --host",
-    "astro": "astro",
-    "format": "biome check --no-errors-on-unmatched --apply ."
-  },
-  "dependencies": {
-    "@astrojs/mdx": "^4.1.0",
-    "@astrojs/sitemap": "^3.2.1",
-    "@fontsource/inter": "^5.1.1",
-    "@fontsource/lora": "^5.1.1",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/upgrade": "^4.0.9",
-    "@tailwindcss/vite": "^4.0.9",
-    "astro": "^5.4.1",
-    "tailwindcss": "^4.0.9"
-  }
+	"name": "blogfolio",
+	"version": "1.0.0",
+	"packageManager": "yarn@4.6.0",
+	"scripts": {
+		"dev": "astro dev",
+		"dev:network": "astro dev --host",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"preview:network": "astro preview --host",
+		"astro": "astro",
+		"format": "biome check --no-errors-on-unmatched --apply ."
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.4",
+		"@astrojs/mdx": "^4.1.0",
+		"@astrojs/rss": "^4.0.11",
+		"@astrojs/sitemap": "^3.2.1",
+		"@fontsource/inter": "^5.1.1",
+		"@fontsource/lora": "^5.1.1",
+		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/vite": "^4.0.9",
+		"astro": "^5.4.1",
+		"clsx": "^2.1.1",
+		"sharp": "^0.33.5",
+		"tailwind-merge": "^2.2.2",
+		"tailwindcss": "^4.0.9",
+		"typescript": "^5.8.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
 }

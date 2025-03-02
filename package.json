@@ -13,14 +13,12 @@
 		"lint": "biome lint --write .",
 		"lint:fix": "biome check --write ."
 	},
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4"
-	},
 	"dependencies": {
 		"@astrojs/check": "^0.9.4",
 		"@astrojs/mdx": "^4.1.0",
 		"@astrojs/rss": "^4.0.11",
 		"@astrojs/sitemap": "^3.2.1",
+		"@biomejs/biome": "1.9.4",
 		"@fontsource/inter": "^5.1.1",
 		"@fontsource/lora": "^5.1.1",
 		"@tailwindcss/typography": "^0.5.16",

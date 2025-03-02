@@ -80,6 +80,9 @@ article {
 		@apply text-black dark:text-white;
 		@apply decoration-black/25 dark:decoration-white/50;
 	}
+	article ul{
+		@apply prose-p:font-serif prose-li:font-serif;
+	}
 }
 
 .animate {
